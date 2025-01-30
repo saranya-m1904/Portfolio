@@ -1,0 +1,82 @@
+/* General text settings */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Home Section */
+#home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* About Section */
+#about h2 {
+    text-align: left;
+    font-size: 2rem;
+    color: #1E90FF;
+}
+
+#about p {
+    text-align: left;
+}
+
+/* Skills Section */
+#skills {
+    text-align: center;
+}
+
+#about img {
+    width: 200px; 
+    height: 200px;
+    object-fit: cover; }
+
+
+.skill-box {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill-box i {
+    color: #1E90FF;
+}
+
+.skill-box h4 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.skill-box p {
+    color: #555;
+}
+
+/* Projects Section */
+#projects {
+    text-align: center;
+}
+
+.project-card .card-body {
+    text-align: left; /* Left-align project descriptions */
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+#contact form {
+    text-align: left; /* Left-align form fields */
+}
+
+#contact form .form-label {
+    font-weight: bold;
+}
+
+
+
+
